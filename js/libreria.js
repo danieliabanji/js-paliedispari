@@ -27,3 +27,10 @@ function removeFirstNotification(){
     if(alerToRemove) alerToRemove.remove();
 }
 
+// INVERTI PAROLA
+
+function invertiParola(parola){
+    let parolaInversa = parola.split('').reverse().join('');
+    return parolaInversa;
+}
+
